@@ -58,6 +58,11 @@ print (type(variabele_een))
 # A.     Het totale aantal van een product (bananen)
 # B.     De minimale toegestane lengte voor een attractie in een pretpark
 # C.     Het grootste getal in een rij met getallen
+totaalAantalBananen = 100
+min_lente_attractie = 10
+grootste_getal = 1000
+
+print(totaalAantalBananen, min_lente_attractie, grootste_getal)
 
 # Denk ook aan de schrijf conventies voor variabele namen.
 # ==========================================
@@ -69,7 +74,8 @@ print (type(variabele_een))
 # Maak onderstaande opgaven
 # Maak van het getal 3.14 een 3. Je mag alleen de typecast functie gebruiken
 # ==========================================
-
+a=int(3.14)
+print(type(a), a)
 
 
 # ==========================================
@@ -82,6 +88,7 @@ print (type(variabele_een))
 # ==========================================
 
 mijn_variabele = 5
+mijn_variabele = str(mijn_variabele)
 
 
 print(mijn_variabele * 3)  # Het resultaat is: 555
@@ -101,4 +108,4 @@ print(mijn_variabele * 3)  # Het resultaat is: 555
 
 # print(int('1plus1'))
 
-# print(str(25E10))
+print(str(25E10))

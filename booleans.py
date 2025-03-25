@@ -14,6 +14,8 @@ print(not True)     # Het resultaat is: False
 #
 # Verwachte uitkomst is de boolean waarde: True
 # ==========================================
+print (5 > 3 and 5 < 10)
+print (5>10 or 5==5)
 
 
 
@@ -24,7 +26,7 @@ print(not True)     # Het resultaat is: False
 #
 # Verwachte uitkomst: True
 # ==========================================
-
+print(7>5 and 7<12 and 7!=10)
 
 
 # ==========================================
@@ -38,7 +40,8 @@ print(not True)     # Het resultaat is: False
 
 x = 5
 y = -4
-
+print(x>0 and x<10)
+print(y<0 and y>10)
 
 
 
@@ -52,7 +55,7 @@ y = -4
 # D. print(True or False or False)
 # E. print(not True or False or not True)
 # ==========================================
-
+#todo maak deze opgave
 
 
 # ==========================================
@@ -62,7 +65,10 @@ y = -4
 # Schrijf de evaluatie die bepaalt of het nummer even of oneven is. Print de string 'Even' als het nummer even is, anders print 'Oneven'.
 # Tip: Als het nummer gedeeld door 2 geen restwaarde heeft, dan is het even. Anders is het oneven.
 # ==========================================
-
+nummer = 42
+if nummer % 2 == 0:
+    print('Even')
+else: print('Oneven')
 
 
 # ==========================================
@@ -76,7 +82,7 @@ y = -4
 #
 # Check het resultaat met de print() methode. Veranderde de waarde van 'uur' om te zien of de begroeting verandert.
 # ==========================================
-
+#todo maak opgave
 uur = 9
 
 
@@ -88,5 +94,5 @@ uur = 9
 #
 # Verwachte uitkomst bij invoer van getallen 2 en 3:  De som van 2 en 3 is : 5
 # ==========================================
-
+#todo maak opgave
 
