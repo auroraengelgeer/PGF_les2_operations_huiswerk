@@ -16,6 +16,10 @@ print(woord * aantal_keer)  # Het resultaat is: Python Python Python
 # Je hebt de volgende variabelen: leeftijd_hond = 4 en naar_mensen_jaren = 7
 # Maak een variabele aan genaamd 'mensen_jaren’. Ken daar de waarde aan toe van leeftijd_hond maal naar_mensen_jaren.
 # Schrijf nu de zin met de print() methode.
+leeftijd_hond = 4
+naar_mensen_jaren = 7
+mensen_jaren = leeftijd_hond * naar_mensen_jaren
+print('Bello is', leeftijd_hond, 'jaar. Dit is', mensen_jaren, 'jaar in mensenjaren.')
 
 # Verwachte uitkomst: Bello is 4 jaar. Dit is 28 jaar in mensenjaren.
 # ==========================================
@@ -32,7 +36,7 @@ variabele_een = '5'
 variabele_twee = 1 / 1
 variabele_drie = 'Python' * 3
 
-
+print (type(variabele_een))
 
 # ==========================================
 # Opgave 3:
